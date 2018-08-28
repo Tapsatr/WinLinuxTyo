@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bb62f9f5-59d8-42bf-8779-c5e41dac4433" ChangeDateTime="01/15/2018 07:50:32">
+    <Property Name="ElementName" Value="[dbo].[HenkiloTiedot].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HenkiloTiedot]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Henkilo_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="29f8e34e-f28c-4f75-91da-a13c2b669549" ChangeDateTime="01/15/2018 08:04:41">
+    <Property Name="ElementName" Value="[dbo].[ProjektiTiedot].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProjektiTiedot]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Projekti_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eaa5839a-8594-4bb3-bfce-3028781f0195" ChangeDateTime="01/15/2018 08:10:06">
+    <Property Name="ElementName" Value="[dbo].[ProjektiHenkilot].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProjektiHenkilot]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Henkilo_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="581004be-de63-46ba-b9bb-4eb3591c3088" ChangeDateTime="01/15/2018 08:21:14">
+    <Property Name="ElementName" Value="[dbo].[Tehtavat].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tehtavat]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Tehtava_Id" />
+  </Operation>
+</Operations>
